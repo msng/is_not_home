@@ -7,12 +7,12 @@ WordPress でホーム画面じゃないときに true を返す関数。
 ----------
 
 is_not_home.php の内容を WordPress テンプレートの functions.php にコピペします。
-あとはテンプレート内で if (is_not_home()) などと書くだけ。
+あとはテンプレート内で if ( is_not_home() ) などと書くだけ。
 
 よくありそうな質問
 -----------------
 
-> if (! is_home()) でいいのでは？
+> if ( ! is_home() ) でいいのでは？
 
 ! とかダサいですよ。
 

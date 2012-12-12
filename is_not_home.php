@@ -1,5 +1,10 @@
 <?php
+//! を使わないとりくみ
 function is_not_home() {
-	return !is_home();
+	if ( is_home() ) {
+		return false;
+	} else {
+		return true;
+	}
 }
 
